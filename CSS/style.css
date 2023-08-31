@@ -87,6 +87,10 @@ main .top-side-board {
   background-color: #1B72E8;
 }
 
+main .bottom-aside {
+  width: 70px;
+}
+
 main .board .bottom-side-board {
   height: calc(100vh - 190px);
   width: 100%;
@@ -100,5 +104,9 @@ main .board .bottom-side-board {
 @media screen and (min-width: 992px) {
   main aside {
     width: 250px;
+  }
+
+  main .bottom-aside {
+    width: 120px;
   }
 }

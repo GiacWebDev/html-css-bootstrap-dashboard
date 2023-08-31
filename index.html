@@ -33,7 +33,7 @@
         </div>
       </div>
 
-      <div class="col-10 debug">
+      <div class="col-8 debug">
         <div class="search debug">
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -58,35 +58,43 @@
 
   <main class="d-flex">
 
-    <aside class="d-flex flex-column justify-content-between ">
+    <aside>
+
+      <div class="row d-flex flex-column position-relative h-100">
+
+        <div class="col">
+          <div class="top-aside d-none d-lg-block debug-bb">        
+            <ul class="list-unstyled">
+              <li><a class="text-decoration-none" href="#"># Home</a></li>
+              <li><a class="text-decoration-none" href="#"># Stats</a></li>
+              <li><a class="text-decoration-none" href="#"># Signals</a></li>
+            </ul>
+          </div>
+          
+          <!-- Menu mobile -->
+          <div class="top-aside d-lg-none debug-bb">        
+            <ul class="list-unstyled">
+              <li><a class="text-decoration-none" href="#">#</a></li>
+              <li><a class="text-decoration-none" href="#">#</a></li>
+              <li><a class="text-decoration-none" href="#">#</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col position-absolute bottom-0">
+          <div class="bottom-aside d-none d-lg-block debug-bb">
+            # admin
+          </div>
+    
+          <div class="bottom-aside d-lg-none debug-bb position-absolute bottom-0 ">
+            #
+          </div>
+        </div>
+    
+
+      </div>
 
       <!-- Menu desktop -->
-      <div class="top-aside d-none d-lg-block debug-bb">        
-        <ul class="list-unstyled">
-          <li><a class="text-decoration-none" href="#"># Home</a></li>
-          <li><a class="text-decoration-none" href="#"># Stats</a></li>
-          <li><a class="text-decoration-none" href="#"># Signals</a></li>
-        </ul>
-      </div>
-      
-      <!-- Menu mobile -->
-      <div class="top-aside d-lg-none debug-bb">        
-        <ul class="list-unstyled">
-          <li><a class="text-decoration-none" href="#">#</a></li>
-          <li><a class="text-decoration-none" href="#">#</a></li>
-          <li><a class="text-decoration-none" href="#">#</a></li>
-        </ul>
-      </div>
-
-      <div class="bottom-aside d-none d-lg-block debug-bb">
-        # admin
-      </div>
-
-      <div class="bottom-aside d-lg-none debug-bb">
-        #
-      </div>
-
-    
     </aside>
 
     <!-- BOARD -->
