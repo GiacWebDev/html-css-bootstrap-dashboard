@@ -40,6 +40,13 @@ main .board {
   width: 100%;
 }
 
+main .top-side {
+  height: 120px;
+  width: 100%;
+  background-color: #1B72E8;
+}
+
+
 /* ************************************************
                   MEDIA QUERY
 ************************************************ */
@@ -47,6 +54,5 @@ main .board {
 @media screen and (min-width: 768px) {
   main aside {
     width: 150px;
-    height: 100%;
   }
 }
