@@ -11,6 +11,10 @@ body {
   border: 1px solid black;
 }
 
+.debug-bb {
+  border: 1px solid white;
+}
+
 .debug-a {
   background-color: aquamarine;
 }
@@ -23,9 +27,35 @@ header {
   background-color: var(--bg-grey);
 }
 
+header .row {
+  height: 100%;
+}
+
+header .row .logo-mob {
+  width: 15%;
+}
+
+header .row .logo-mob img {
+  width: 50px;
+}
+
+header .row .logo-desk {
+  width: 15%;
+}
+
+header .row .search  {
+  width: 70%;
+}
+
+header .row .elements {
+  width: 15%;
+  height: 50px
+}
+
+
 /* MAIN */
 main {
-  height: 100vh;
+  height: calc(100vh - 70px);
 }
 
 /* ASIDE */
@@ -33,17 +63,33 @@ main aside {
   width: 70px;
   height: 100%;
   background-color: #071E34;
+  color: white;
 }
 
+main aside a {
+  color: white;
+}
+
+main aside .bottom-aside {
+  height: 70px;
+}
+
+
+/* BOARD */
 main .board {
-  height: 100vh;
   width: 100%;
+  height: calc(100vh - 70px);
 }
 
-main .top-side {
+main .top-side-board {
   height: 120px;
   width: 100%;
   background-color: #1B72E8;
+}
+
+main .board .bottom-side-board {
+  height: calc(100vh - 190px);
+  width: 100%;
 }
 
 
@@ -51,8 +97,8 @@ main .top-side {
                   MEDIA QUERY
 ************************************************ */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   main aside {
-    width: 150px;
+    width: 250px;
   }
 }

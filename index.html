@@ -21,20 +21,86 @@
 <body>
 
   <header>
-    header    
+    <div class="row d-flex align-items-center ">
+
+      <div class="logo-mob d-flex justify-content-center align-content-center d-lg-none debug">
+        <img src="img/mobile-logo.png" alt="logo">
+      </div>
+
+      <div class="logo-desk d-flex justify-content-center align-content-center debug d-none d-lg-flex ">
+        <img src="img/logo.svg" alt="logo">
+      </div>
+
+      <div class="search debug">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+
+      <div class="elements d-flex align-items-center debug">     
+
+          <ul class="list-unstyled d-flex align-items-center">
+            <li><a class="text-decoration-none" href="#">#</a></li>
+            <li><a class="text-decoration-none" href="#">#</a></li>
+            <li><a class="text-decoration-none" href="#">#</a></li>
+            <li><a class="text-decoration-none" href="#">#</a></li>
+          </ul>
+      
+      </div>
+
+    </div>  
   </header>
 
   <main class="d-flex">
 
-    <aside>
-      aside
-    </aside>
-    <div class="board debug-a">
+    <aside class="d-flex flex-column justify-content-between ">
 
-      <div class="top-side">
+      <!-- Menu desktop -->
+      <div class="top-aside d-none d-lg-block debug-bb">        
+        <ul class="list-unstyled">
+          <li><a class="text-decoration-none" href="#"># Home</a></li>
+          <li><a class="text-decoration-none" href="#"># Stats</a></li>
+          <li><a class="text-decoration-none" href="#"># Signals</a></li>
+        </ul>
+      </div>
+      
+      <!-- Menu mobile -->
+      <div class="top-aside d-lg-none debug-bb">        
+        <ul class="list-unstyled">
+          <li><a class="text-decoration-none" href="#">#</a></li>
+          <li><a class="text-decoration-none" href="#">#</a></li>
+          <li><a class="text-decoration-none" href="#">#</a></li>
+        </ul>
       </div>
 
-      <div class="bottom-side"></div>
+      <div class="bottom-aside d-none d-lg-block debug-bb">
+        # admin
+      </div>
+
+      <div class="bottom-aside d-lg-none debug-bb">
+        #
+      </div>
+
+    
+    </aside>
+
+    <!-- BOARD -->
+
+    <div class="board debug-a">
+
+      <div class="top-side-board">
+
+        <div class="row">
+          <div class="col">item</div>
+          <div class="col">item</div>
+          <div class="col">item</div>
+        </div>
+
+      </div>
+
+      <div class="bottom-side-board debug-a">
+      </div>
+
     </div>
 
   </main>
