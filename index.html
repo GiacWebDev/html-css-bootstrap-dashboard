@@ -21,35 +21,40 @@
 <body>
 
   <header>
-    <div class="row d-flex align-items-center ">
+    <div class="row ">
 
-      <div class="logo-mob d-flex justify-content-center align-content-center d-lg-none debug">
-        <img src="img/mobile-logo.png" alt="logo">
+      <div class="col-2 debug">
+        <div class="logo-mob d-flex justify-content-center align-content-center d-lg-none debug">
+            <img src="img/mobile-logo.png" alt="logo">
+        </div>
+
+        <div class="logo-desk d-flex justify-content-center align-content-center debug d-none d-lg-flex ">
+          <img src="img/logo.svg" alt="logo">
+        </div>
       </div>
 
-      <div class="logo-desk d-flex justify-content-center align-content-center debug d-none d-lg-flex ">
-        <img src="img/logo.svg" alt="logo">
+      <div class="col-10 debug">
+        <div class="search debug">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
       </div>
 
-      <div class="search debug">
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        </form>
-      </div>
-
-      <div class="elements d-flex align-items-center debug">     
-
+      <div class="col-2">
+        <div class="elements">     
           <ul class="list-unstyled d-flex align-items-center">
             <li><a class="text-decoration-none" href="#">#</a></li>
             <li><a class="text-decoration-none" href="#">#</a></li>
             <li><a class="text-decoration-none" href="#">#</a></li>
             <li><a class="text-decoration-none" href="#">#</a></li>
-          </ul>
-      
+          </ul>  
+        </div>
       </div>
 
     </div>  
   </header>
+
 
   <main class="d-flex">
 
@@ -91,9 +96,9 @@
       <div class="top-side-board">
 
         <div class="row">
-          <div class="col">item</div>
-          <div class="col">item</div>
-          <div class="col">item</div>
+          <div class="col-6 debug">item</div>
+          <div class="col-3 debug">item</div>
+          <div class="col-3 debug">item</div>
         </div>
 
       </div>
