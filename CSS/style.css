@@ -52,7 +52,6 @@ main {
 
 /* ASIDE */
 main aside {
-  width: 70px;
   background-color: #071E34;
   color: white;
 }
@@ -60,6 +59,7 @@ main aside {
 main aside a {
   color: white;
 }
+
 
 main aside .bottom-aside {
   height: 70px;
