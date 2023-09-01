@@ -31,16 +31,8 @@ header .row {
   height: 100%;
 }
 
-header .row .logo-mob {
-  width: 15%;
-}
-
 header .row .logo-mob img {
   width: 50px;
-}
-
-header .row .logo-desk {
-  width: 15%;
 }
 
 header .row .search  {
@@ -61,7 +53,6 @@ main {
 /* ASIDE */
 main aside {
   width: 70px;
-  height: 100%;
   background-color: #071E34;
   color: white;
 }
@@ -72,18 +63,17 @@ main aside a {
 
 main aside .bottom-aside {
   height: 70px;
+  width: 100%;
 }
 
 
 /* BOARD */
 main .board {
   width: 100%;
-  height: calc(100vh - 70px);
 }
 
 main .top-side-board {
   height: 120px;
-  width: 100%;
   background-color: #1B72E8;
 }
 
@@ -92,7 +82,6 @@ main .bottom-aside {
 }
 
 main .board .bottom-side-board {
-  height: calc(100vh - 190px);
   width: 100%;
 }
 
