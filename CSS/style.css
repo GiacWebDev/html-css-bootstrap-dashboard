@@ -86,6 +86,7 @@ main .bottom-aside {
 
 main .board .bottom-side-board {
   width: 100%;
+  height: calc(100vh - 190px);
 }
 
 
