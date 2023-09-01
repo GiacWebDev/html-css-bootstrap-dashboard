@@ -100,13 +100,33 @@ main .board {
 }
 
 main .top-side-board {
-  height: 120px;
   background-color: #1B72E8;
   color: white;
 }
 
-main .board .boolean span {
-  background-color: black;
+main .board .top-side-board span i {
+  font-size: 0.7rem;
+}
+
+main .board .top-side-board .row .studenti p:last-child {
+  font-size: 2rem;
+}
+
+main .board .top-side-board .row .add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+main .board .top-side-board .row .add:hover {
+  background-color: white;
+  color: #1B72E8;
 }
 
 main .board .bottom-side-board {
