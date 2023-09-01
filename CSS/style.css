@@ -82,6 +82,7 @@ main aside ul li:hover {
 
 main aside a {
   color: white;
+  font-size: 1.5rem;
 }
 
 main aside i {
@@ -90,7 +91,6 @@ main aside i {
 
 main aside .bottom-aside {
   height: 50px;
-  width: 70px;
 }
 
 
@@ -143,6 +143,11 @@ main .board .bottom-side-board {
   main aside {
     width: 140px;
   }
+
+  main aside a {
+    color: white;
+    font-size: 1rem;
+  }  
 
   main .bottom-aside {
     width: 120px;
