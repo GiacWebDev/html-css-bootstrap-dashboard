@@ -25,7 +25,7 @@ body {
 
 header {
   width: 100%;
-  height: 70px;
+  height: 60px;
   background-color: var(--bg-grey);
 }
 
@@ -49,19 +49,30 @@ header .row .elements {
 
 /* MAIN */
 main {
-  height: calc(100vh - 70px);
+  height: calc(100vh - 60px);
 }
 
 /* ASIDE */
 main aside {
-  background-color: #071E34;
+  background-image: url("/img/sidebar-bg.png");
+  background-color: #071e34;
   color: white;
   width: 70px;
+}
+
+main aside ul li:hover {
+  background-color: rgba(255, 255, 255, 0.48);
 }
 
 main aside a {
   color: white;
 }
+
+main aside i {
+  width: 30px;
+}
+
+
 
 
 main aside .bottom-aside {
@@ -86,7 +97,7 @@ main .bottom-aside {
 
 main .board .bottom-side-board {
   width: 100%;
-  height: calc(100vh - 190px);
+  height: calc(100vh - 180px);
 }
 
 
@@ -96,7 +107,7 @@ main .board .bottom-side-board {
 
 @media screen and (min-width: 992px) {
   main aside {
-    width: 250px;
+    width: 170px;
   }
 
   main .bottom-aside {
