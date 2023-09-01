@@ -20,6 +20,10 @@ body {
   background-color: aquamarine;
 }
 
+.bg-darkblue {
+  background-color: black;
+}
+
 
 
 /* HEADER */
@@ -47,7 +51,6 @@ header .row .search  {
 }
 
 header .row .elements {
-  width: 15%;
   height: 50px
 }
 
@@ -79,7 +82,7 @@ main aside i {
 
 main aside .bottom-aside {
   height: 50px;
-  width: 100%;
+  width: 70px;
 }
 
 
@@ -93,8 +96,8 @@ main .top-side-board {
   background-color: #1B72E8;
 }
 
-main .bottom-aside {
-  width: 70px;
+main .board .boolean span {
+  background-color: black;
 }
 
 main .board .bottom-side-board {
