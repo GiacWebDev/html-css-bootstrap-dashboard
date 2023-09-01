@@ -34,12 +34,16 @@ header .row {
   height: 100%;
 }
 
+header .row .logo-desk img {
+  width: 100%;
+}
+
 header .row .logo-mob img {
   width: 50px;
 }
 
 header .row .search  {
-  width: 70%;
+  width: 100%;
 }
 
 header .row .elements {

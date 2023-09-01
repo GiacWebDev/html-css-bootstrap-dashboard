@@ -22,32 +22,42 @@
 
   <header class="container-fluid">
     <div class="row">
-
-      <div class="col-2 d-flex align-baseline debug">
-        <div class="logo-mob d-flex d-lg-none debug">
+      <!-- LOGO MOBILE -->
+      <div class="col-1 d-flex justify-content-center">
+        <div class="logo-mob d-flex d-lg-none">
             <img src="img/mobile-logo.png" alt="logo">
         </div>
-
-        <div class="logo-desk d-flex justify-content-center align-content-center debug d-none d-lg-flex ">
+        <!-- LOGO DESKTOP -->
+        <div class="logo-desk p-0 debug d-none d-lg-flex ">
           <img src="img/logo.svg" alt="logo">
         </div>
       </div>
 
-      <div class="col-8 debug">
-        <div class="search debug">
+      <div class="col-10 d-flex align-items-center debug">
+        <div class="search">
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           </form>
         </div>
       </div>
 
-      <div class="col-2">
+      <div class="col-1 d-flex align-items-center">
         <div class="elements">     
           <ul class="list-unstyled d-flex align-items-center">
-            <li><a class="text-decoration-none" href="#">#</a></li>
-            <li><a class="text-decoration-none" href="#">#</a></li>
-            <li><a class="text-decoration-none" href="#">#</a></li>
-            <li><a class="text-decoration-none" href="#">#</a></li>
+            <li><a class="text-decoration-none px-1" href="#">
+            <i class="fa-solid fa-list" style="color: #5B5858;"></i></a>
+            </li>
+
+            <li><a class="text-decoration-none px-1" href="#">
+            <i class="fa-solid fa-circle-question" style="color: #5B5858;"></i></a>
+            </li>
+
+            <li><a class="text-decoration-none px-1" href="#">
+              <i class="fa-solid fa-ellipsis-vertical" style="color: #5B5858;"></i></a>
+            </li>
+
+            <li><a class="text-decoration-none px-1" href="#"></a>
+            <i class="fa-solid fa-bell" style="color: #FF8F00;"></i></li>
           </ul>  
         </div>
       </div>
