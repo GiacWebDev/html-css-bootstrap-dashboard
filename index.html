@@ -62,8 +62,22 @@
               <i class="fa-solid fa-ellipsis-vertical" style="color: #5B5858;"></i></a>
             </li>
 
-            <li><a class="text-decoration-none px-2" href="#">
-            <i class="fa-solid fa-bell" style="color: #FF8F00;"></i></a></li>
+            <li class="text-decoration-none px-2" href="#">
+
+              <div class="dropdown">
+                
+                <button class="btn btn-secondary" style="color: #FF8F00;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-bell"></i>
+                </button>
+
+                <ul class="dropdown-menu">
+                  <li><button class="dropdown-item" type="button">Profilo</button></li>
+                  <li><button class="dropdown-item" type="button">Fatturazione</button></li>
+                  <li><button class="dropdown-item" type="button">Logout</button></li>
+                </ul>
+              </div>
+            </li>
+
           </ul>  
         <!-- </div> -->
       </div>
