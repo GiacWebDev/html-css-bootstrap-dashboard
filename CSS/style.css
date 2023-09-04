@@ -28,9 +28,6 @@ body {
   background-color: #E5E5E5;
 }
 
-.text-bg-warning {
-  color: white!important;
-}
 
 
 /* HEADER */
@@ -123,7 +120,7 @@ main .board .top-side-board .row .studenti p:last-child {
   font-size: 2rem;
 }
 
-main .board .top-side-board .row .add {
+main .board .top-side-board .row .add button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -135,6 +132,17 @@ main .board .top-side-board .row .add {
   cursor: pointer;
 }
 
+main .board .top-side-board .offcanvas {
+  width: 100%;
+}
+
+main .board .top-side-board .offcanvas h4 {
+  font-size: 1rem;
+}
+
+main .board .top-side-board .offcanvas button {
+  width: fit-content!important;
+}
 
 
 /* BOTTOM BOARD */
@@ -166,6 +174,10 @@ main .board .bottom-side-board table button {
   font-size: 0.7rem;
 }
 
+main .board .text-bg-warning {
+  color: white!important;
+}
+
 main .board .bottom-side-board table tr {
   text-align: center;
 }
@@ -178,6 +190,23 @@ main .board .bottom-side-board table td:first-child {
 main .board .bottom-side-board table th:first-child {
   text-align: left;
 }
+
+/* OFFCANVAS */
+
+main .board .offcanvas .row {
+  padding: 10px 0;
+}
+
+main .board .offcanvas .btn-warning {
+  color: black!important;
+  font-size: 0.9rem;
+}
+
+main .board .offcanvas .btn-primary {
+  font-size: 0.9rem;
+}
+
+
 
 /* ************************************************
                   MEDIA QUERY
@@ -195,5 +224,9 @@ main .board .bottom-side-board table th:first-child {
 
   main .bottom-aside {
     width: 120px;
+  }
+
+  main .board .top-side-board .offcanvas {
+    width: 50%;
   }
 }

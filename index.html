@@ -179,7 +179,100 @@
 
             <div class="col-12 col-lg-3 order-lg-3 d-flex align-items-baseline">
               <p class="me-2">Nuovo Studente</p>
-              <div class="add">+</div>
+
+              <div class="add">
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+
+                <!-- OFFCANVAS -->
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+
+                    <div class="row">
+                      <div class="col">
+                        <h4>Nome</h4>
+                        <input type="text" class="form-control" placeholder="" aria-label="First name">
+                      </div>
+                      <div class="col">
+                        <h4>Cognome</h4>
+                        <input type="text" class="form-control" placeholder="" aria-label="Last name">
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col">
+                        <h4>Email</h4>
+                        <div class="input-group flex-nowrap">
+                          <span class="input-group-text" id="addon-wrapping">@</span>
+                          <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
+                      </div>
+                      <div class="col">
+                        <h4>Password</h4>
+                        <input type="text" class="form-control" placeholder="" aria-label="Last name">
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col">
+                        <h4>Indirizzo</h4>
+                        <input type="text" class="form-control" placeholder="" aria-label="">
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-6">
+                        <h4>Città</h4>
+                        <input type="text" class="form-control" placeholder="" aria-label="First name">
+                      </div>
+                      <div class="col-4">
+                        <h4>Stato</h4>
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Scegli</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                      <div class="col-2">
+                        <h4>CAP</h4>
+                        <input type="text" class="form-control" placeholder="" aria-label="Last name">
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col">
+                        <h4>Indirizzo</h4>
+                        <div class="input-group mb-3">
+                          <input type="file" class="form-control" id="inputGroupFile02">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            <p>Seleziona per proseguire</p>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col d-flex">
+                        <button type="button" class="btn btn-primary">Salva</button>
+                        <button type="button" class="btn btn-warning">Svuota</button>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div class="col-12 col-lg-5 py-3 order-lg-1">
@@ -376,24 +469,24 @@
                         <div class="card-body">
                           <ul class="list-group">
                             <li class="list-group-item"><div class="form-check">                           
-                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
                               <label class="form-check-label" for="flexCheckDefault">
-                                Kickoff nuove classi
+                                <span>Kickoff nuove classi</span>
                               </label>
                             </div>
                             </li>
                             
                             <li class="list-group-item"><div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
                               <label class="form-check-label" for="flexCheckDefault">
-                                Lezione su Bootstrap 5 in classe #75
+                                <span>Lezione su Bootstrap 5 in classe #75</span>
                               </label>
                             </div>
                             </li>
                             <li class="list-group-item"><div class="form-check">
-                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
                               <label class="form-check-label" for="flexCheckDefault">
-                                Controllare username github studenti
+                                <span>Controllare username github studenti</span>
                               </label>
                             </div>
                             </li>
