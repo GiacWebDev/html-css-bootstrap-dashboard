@@ -28,6 +28,9 @@ body {
   background-color: #E5E5E5;
 }
 
+.text-bg-warning {
+  color: white!important;
+}
 
 
 /* HEADER */
@@ -161,6 +164,18 @@ main .board .bottom-side-board table button {
   font-size: 0.7rem;
 }
 
+main .board .bottom-side-board table tr {
+  text-align: center;
+}
+
+main .board .bottom-side-board table td:first-child {
+  text-align: left;
+  width: 50%;
+}
+
+main .board .bottom-side-board table th:first-child {
+  text-align: left;
+}
 
 /* ************************************************
                   MEDIA QUERY
