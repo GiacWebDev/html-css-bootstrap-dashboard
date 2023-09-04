@@ -180,6 +180,10 @@ main .board .bottom-side-board table button {
   font-size: 0.7rem;
 }
 
+main .board .btn-outline-secondary:hover {
+  color: white!important;
+}
+
 main .board .text-bg-warning {
   color: white!important;
 }
