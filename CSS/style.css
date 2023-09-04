@@ -132,6 +132,10 @@ main .board .top-side-board .row .add button {
   cursor: pointer;
 }
 
+main .board .top-side-board .row .add button:hover {
+  border-radius: 5px!important;
+}
+
 main .board .top-side-board .offcanvas {
   width: 100%;
 }
