@@ -120,7 +120,7 @@ main .board .top-side-board .row .studenti p:last-child {
   font-size: 2rem;
 }
 
-main .board .top-side-board .row .add button {
+main .board .top-side-board .row button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -132,8 +132,10 @@ main .board .top-side-board .row .add button {
   cursor: pointer;
 }
 
-main .board .top-side-board .row .add button:hover {
+main .board .top-side-board .row button:hover {
   border-radius: 5px!important;
+  color: #1B72E8;
+  background-color: white;
 }
 
 main .board .top-side-board .offcanvas {
