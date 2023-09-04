@@ -130,6 +130,10 @@ main .board .top-side-board .row .add {
   cursor: pointer;
 }
 
+
+
+/* BOTTOM BOARD */
+
 main .board .top-side-board .row .add:hover {
   background-color: white;
   color: #1B72E8;
@@ -138,6 +142,19 @@ main .board .top-side-board .row .add:hover {
 main .board .bottom-side-board {
   width: 100%;
   height: calc(100vh - 180px);
+}
+
+main .board .bottom-side-board h3 {
+  font-size: 1.5rem;
+}
+
+main .board .bottom-side-board .list-group img {
+  width: 100%;
+}
+
+main .board .bottom-side-board table span img {
+  width: 30px;
+  border-radius: 50%;
 }
 
 
