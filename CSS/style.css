@@ -57,8 +57,10 @@ header .row .logo-mob img {
   width: 50px;
 }
 
-header .row .search  {
+header .row .search {
   width: 100%;
+  background-color: #E5E5E5;
+  border-radius: 5px;
 }
 
 header .row .search input {
