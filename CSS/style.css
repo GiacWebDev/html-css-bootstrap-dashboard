@@ -152,9 +152,13 @@ main .board .bottom-side-board .list-group img {
   width: 100%;
 }
 
-main .board .bottom-side-board table span img {
+main .board .bottom-side-board table img {
   width: 30px;
   border-radius: 50%;
+}
+
+main .board .bottom-side-board table button {
+  font-size: 0.9rem;
 }
 
 
